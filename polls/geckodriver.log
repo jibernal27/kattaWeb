@@ -1,9 +1,14 @@
-1491267841878	geckodriver	INFO	Listening on 127.0.0.1:52072
-1491267844015	mozprofile::profile	INFO	Using profile path C:\Users\jairo\AppData\Local\Temp\rust_mozprofile.o0T6Jv4dKVzG
-1491267844026	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
-1491267844040	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52078
-1491267847711	Marionette	INFO	Listening on port 52078
-1491267851077	Marionette	INFO	startBrowser 6079076a-e291-475a-bd21-921af9326f74
-1491267668933	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
-0/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 1464] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1491286858978	geckodriver	INFO	Listening on 127.0.0.1:61003
+1491286861498	mozprofile::profile	INFO	Using profile path C:\Users\jairo\AppData\Local\Temp\rust_mozprofile.TR8b2Bmnhri0
+1491286861723	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1491286862288	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61012
+1491286880507	Marionette	INFO	Listening on port 61012
+1491286884805	Marionette	INFO	startBrowser 0a38e745-072a-495a-97c0-89465b81264b
+[Child 1808] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+.SessionFile.write@resource://app/modules/sessionstore/SessionFile.jsm:76:12
+SessionSaverInternal._writeState@resource://app/modules/sessionstore/SessionSaver.jsm:259:12
+SessionSaverInternal._saveState@resource://app/modules/sessionstore/SessionSaver.jsm:230:12
+SessionSaverInternal._saveStateAsync@resource://app/modules/sessionstore/SessionSaver.jsm:243:5
+SessionSaverInternal.runDelayed/this._timeoutID<@resource://app/modules/sessionstore/SessionSaver.jsm:147:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
